@@ -2,11 +2,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     
-    background-image: url('../images/f65e608f449f193cf0ff5219dc266136.jpg');
-    background-size: cover; /* Faz a imagem cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+    background-image: url('../images/imagemfundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
     display: flex;
     justify-content: center;
@@ -14,19 +14,18 @@ body {
     height: 100vh;
     color: #333;
     
-    /* Adiciona uma sobreposição semi-transparente para o texto se destacar */
     background-color: rgba(0, 0, 0, 0.5); 
     background-blend-mode: overlay;
 }
 
 .form-container {
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com transparência */
+    background-color: rgba(255, 82, 2, 0.9);
     padding: 2.5em;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 450px;
-    backdrop-filter: blur(5px); /* Efeito de vidro embaçado (moderno) */
+    backdrop-filter: blur(5px);
 }
 
 h2 {
