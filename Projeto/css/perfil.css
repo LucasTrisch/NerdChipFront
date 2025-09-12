@@ -1,0 +1,66 @@
+body {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Layout */
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 220px;
+    background-color: orange;
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .sidebar a:hover,
+  .sidebar a.active {
+    background-color: darkorange;
+  }
+  
+  /* Conteúdo */
+  .content {
+    flex: 1;
+    padding: 40px;
+    background: white;
+    overflow-y: auto;
+  }
+  
+  .section {
+    background-image: url('../images/imagemfundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: none;
+  }
+  
+  .section.active {
+    
+    display: block;
+  }
+  
