@@ -16,11 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
             endereco: document.getElementById('endereco').value
         };
 
-        // URL do seu endpoint de cadastro na API Spring Boot
-        const apiUrl = 'http://localhost:8080/api/cadastro';
+        const apiUrl = 'http://localhost:8080/usuario';
 
         try {
-            // Envia a requisição POST para a API
             const response = await fetch(apiUrl, {
                 method: 'POST',
                 headers: {

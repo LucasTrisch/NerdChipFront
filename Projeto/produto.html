@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produto - NerdChip</title>
+  <link rel="stylesheet" href="css/produto.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar-left">
+      <a href="home.html" class="logo">Home</a>
+    </div>
+
+    <div class="navbar-center">
+      <input type="text" placeholder="Pesquisar..." class="search-bar">
+    </div>
+
+    <div class="navbar-right">
+      <a href="perfil.html">Perfil</a>
+      <a href="carrinho.html">Carrinho</a>
+    </div>
+  </header>
+
+  <!-- Conteúdo do Produto -->
+  <main class="produto-container">
+    <div class="produto-imagem">
+      <img src="images/23771_1.jpg" alt="Mouse Gamer RGB">
+    </div>
+
+    <div class="produto-detalhes">
+      <h1>Mouse Gamer Redragon RGB</h1>
+      <p class="preco">De <span class="preco-antigo">R$599,90</span> por <strong>R$329,90</strong></p>
+      <p class="descricao">
+        O Mouse Gamer Redragon oferece precisão, iluminação RGB personalizável e botões programáveis. 
+        Ideal para quem busca performance e estilo nos jogos.
+      </p>
+
+      <div class="acoes">
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" min="1" value="1">
+        <button id="btnAdicionar">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/produto.js"></script>
+</body>
+</html>
